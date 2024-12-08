@@ -1,0 +1,70 @@
+.mainCarousel {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.carousel {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.hero {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(90deg, #000000c7, #0000002a);
+  height: 100vh;
+  width: 100%;
+  /* margin-top: 11rem; */
+}
+#img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.description {
+  padding-top: 12rem;
+  margin-left: 10rem;
+  width: 50%;
+  margin-top: 11rem;
+}
+.heading,
+.subheading {
+  font-size: 4.8rem;
+  margin: 0rem;
+
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+  line-height: 1;
+}
+.subheading {
+  font-size: 2rem;
+  padding-top: 3.6rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+}
+.btn {
+  margin-top: 6.4rem;
+}
+.link {
+  text-decoration: none;
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-left: 1.6rem;
+  font-weight: 600;
+}
+.link a {
+  display: inline-block;
+  color: #fff;
+}
+
+@media (max-width: 34em) {
+  .link {
+    margin-top: 2.4rem;
+    margin-left: 1rem;
+  }
+  .description {
+    margin-left: 4.8rem;
+  }
+}

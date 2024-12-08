@@ -1,0 +1,41 @@
+.testimonies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 2.4rem;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  border-color: #b7e4f8;
+  border-bottom-style: dotted;
+  border-width: 80%;
+  /* margin-bottom: 5rem; */
+  padding: 10rem 0;
+  width: 90%;
+}
+.mainHeading {
+  width: 90%;
+  margin: 0 auto;
+}
+.color {
+  padding: 10rem 0;
+  background-color: #e7f6fd;
+}
+
+.heading {
+  margin: 0;
+  font-size: 5.6rem;
+}
+.description {
+  font-size: 2rem;
+}
+@media (max-width: 59em) {
+  .testimonies {
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+@media (max-width: 45em) {
+  .testimonies {
+    grid-template-columns: 1fr;
+  }
+}

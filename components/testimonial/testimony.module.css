@@ -1,0 +1,35 @@
+.testimony {
+  background-color: #cfedfb;
+  border-radius: 75px;
+  padding: 2.4rem 3.6rem;
+  /* padding-right: 2.4rem; */
+  /* width: 100%; */
+  filter: drop-shadow(-1px 6px 5px rgba(50, 50, 0, 0.5));
+}
+.flex {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1.6rem;
+}
+.name {
+  /* padding-top: 7.2rem; */
+  /* padding-left: 2rem; */
+  font-size: 2.4rem;
+}
+
+.description {
+  font-size: 1.6rem;
+}
+.img {
+  width: 15rem;
+  height: 15rem;
+  margin-left: -10rem;
+  margin-top: -5rem;
+}
+@media (max-width: 59em) {
+  .testimony {
+    border-radius: 55px;
+    width: 75%;
+    justify-self: center;
+  }
+}
