@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./nav";
+import NavBar from "./nav.module.css";
 import Head from "next/head";
 
 function Layout({ children }) {
